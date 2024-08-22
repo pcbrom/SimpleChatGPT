@@ -74,8 +74,8 @@ To configure a keyboard shortcut that runs the script:
 
 ### 4. Using the Shortcut
 
-1. **Select the text** in any application.
-2. **Press the configured keyboard shortcut**.
+1. **Select the text** in any application and copy.
+2. **Press the configured keyboard shortcut** and paste.
 3. The text will automatically be sent to ChatGPT in your browser.
 
 ### 5. Troubleshooting
