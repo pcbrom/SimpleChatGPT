@@ -27,12 +27,12 @@ Paste the following content into the file:
 #!/bin/bash
 
 # Capture selected text using xclip
-selected_text=$(xclip -selection clipboard -o)
+query=$(zenity --entry --title="Send to ChatGPT" --text="Paste your text:" --entry-text="$selected_text")
 
 # Verify if the text was correctly captured
-if [ -z "$selected_text" ]; then
-    zenity --error --text="No text selected or error capturing the text."
-    exit 1
+if [ ! -z "$query" ]; then
+    # Abre o navegador com a URL do ChatGPT e a consulta
+    xdg-open "https://chat.openai.com/?q=${query}"
 fi
 
 # URL encode the text
