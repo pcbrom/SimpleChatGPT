@@ -2,9 +2,11 @@
 
 This document describes how to set up a script on Linux to capture selected text and send it to ChatGPT using a simple keyboard shortcut.
 
-<p align="center">
-  <img src="https://github.com/pcbrom/SimpleChatGPT/blob/main/simplechatgpt.gif" alt="Demo GIF" style="width: 45%;" />
-</p>
+## Video Demo
+
+You can watch a demo of the script in action
+
+[Demo Video on Youtube](https://www.youtube.com/watch?v=da3GcPmP_Dg&si=hq6DaDlL2inOc8EO)
 
 ## What the Script Does
 
