@@ -19,7 +19,7 @@ The `chatgpt-integration.sh` script performs the following tasks:
 
 ## How to Set Up
 
-### Dependencies first
+### 0. Dependencies
 
 Before using the script, ensure that the following packages are installed on your system:
 
