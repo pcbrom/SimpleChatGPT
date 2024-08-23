@@ -17,7 +17,20 @@ The `chatgpt-integration.sh` script performs the following tasks:
 3. **URL encodes the text**: The captured text is URL encoded using `jq`, ensuring special characters are correctly included in the query.
 4. **Opens ChatGPT in the browser**: The script then opens the default browser with the ChatGPT URL, passing the selected text as a query parameter.
 
+```bash
+sudo apt-get install xclip zenity jq google-chrome-stable
+```
+
 ## How to Set Up
+
+### Dependencies first
+
+Before using the script, ensure that the following packages are installed on your system:
+
+- `xclip`: To capture the selected text.
+- `zenity`: To display the confirmation or modification dialog box.
+- `jq`: To URL encode the captured text.
+- `google-chrome`: To open ChatGPT in a new incognito tab in Chrome.
 
 ### 1. Create the Script
 
